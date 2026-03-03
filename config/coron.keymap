@@ -73,10 +73,10 @@
 
         default_layer {
             bindings = <
-&kp ESC         &kp Q             &kp W         &kp E         &kp R                        &kp T        &kp Y                          &kp U          &lt 5 I      &kp O    &kp P           &kp BACKSPACE
-&kp TAB         &kp A             &kp S         &kp D         &kp F                        &kp G        &mkp LCLK                      &kp MINUS      &kp H        &kp J    &kp K           &kp L          &kp SQT    &kp ENTER
-&kp LEFT_SHIFT  &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &mkp RCLK                      &kp SEMICOLON  &kp N        &kp M    &kp COMMA       &kp DOT        &kp SLASH  &kp RIGHT_SHIFT
-&kp CAPS        &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN  &kp BACKSPACE  &lt 1 ENTER  &kp DEL  &kp UNDERSCORE
+&kp ESC         &kp Q             &kp W         &kp E         &kp R                        &kp T        &kp Y                          &kp U          &lt 5 I      &kp O           &kp P            &kp UP_ARROW
+&kp TAB         &kp A             &kp S         &kp D         &kp F                        &kp G        &mkp RCLK                      &kp MINUS      &kp H        &kp J           &kp K            &kp L         &kp SQT    &kp DOWN_ARROW
+&kp LEFT_SHIFT  &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &mkp LCLK                      &kp SEMICOLON  &kp N        &kp M           &kp COMMA        &kp DOT       &kp SLASH  &kp RIGHT_SHIFT
+&kp CAPS        &kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN  &kp BACKSPACE  &lt 1 ENTER  &kp LEFT_ARROW  &kp RIGHT_ARROW
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -113,10 +113,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans
+&trans  &trans  &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans    &trans    &trans
+&trans  &trans  &mkp MB2  &mkp MB3  &mkp MB1  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans  &trans
+&trans  &trans  &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans
+&trans  &trans  &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans    &trans
             >;
         };
 
