@@ -139,3 +139,4 @@
         };
     };
 };
+CONFIG_ZMK_POINTING=y
