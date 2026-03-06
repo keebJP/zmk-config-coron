@@ -18,10 +18,7 @@
 #
 ---
 include:
- - board: seeeduino_xiao_ble
-   shield: coron_R
-   snippet: studio-rpc-usb-uart
- - board: seeeduino_xiao_ble
-   shield: coron_L
- - board: seeeduino_xiao_ble
-   shield: settings_reset
+  - board: seeeduino_xiao_ble
+    shield: coron_L
+  - board: seeeduino_xiao_ble
+    shield: coron_R
