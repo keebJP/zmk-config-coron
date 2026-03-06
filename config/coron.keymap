@@ -80,7 +80,6 @@
             >;
 
             sensor-bindings = <&inc_dec_msc SCRL_UP(15) SCRL_DOWN(15)>;
-;
         };
 
         FUNCTION {
@@ -110,7 +109,6 @@
             >;
 
             sensor-bindings = <&inc_dec_msc SCRL_LEFT(15) SCRL_RIGHT(15)>;
-;
         };
 
         MOUSE {
